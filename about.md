@@ -13,8 +13,8 @@ The project
 To contribute and discuss the project please use this email address: [asthma-map@googlegroups.com](mailto:asthma-map@googlegroups.com)  
 
 AsthmaMap Project Coordinators:  
-Alexander Mazein [amazein@eisbm.org](mailto:amazein@eisbm.org)
-Charles Auffray [cauffray@eisbm.org](mailto:cauffray@eisbm.org)
+Alexander Mazein [amazein@eisbm.org](mailto:amazein@eisbm.org)  
+Charles Auffray [cauffray@eisbm.org](mailto:cauffray@eisbm.org)  
 
 ## Funding
 
