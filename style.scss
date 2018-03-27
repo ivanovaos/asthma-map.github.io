@@ -188,7 +188,7 @@ img {
   color: $gray;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 600;
+  font-weight: 550;
   font-size: 28px;
   letter-spacing: 1px;
 }
@@ -218,9 +218,9 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $gray;
     text-align: right;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 1px;
 
     @include mobile {
