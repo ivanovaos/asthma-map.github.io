@@ -6,6 +6,9 @@ permalink: /team/
 
 # AsthmaMap project team
 
-### Editorial Panel
+### Editorial panel
 
-### Development Team
+### Development team
+
+### Modelling
+
