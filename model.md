@@ -10,7 +10,7 @@ permalink: /model/
 
 ### Contributors
 
-Thomas Ligon, Jan Hasenauer, Irina Balaur, Alexander Mazein, Diane Lefaudeux, Charles Auffray
+Thomas Ligon, Irina Balaur, Alexander Mazein, Diane Lefaudeux, Charles Auffray, Jan Hasenauer
 
 
 
