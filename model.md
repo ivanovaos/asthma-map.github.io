@@ -6,7 +6,7 @@ permalink: /model/
 
 # Modelling asthma mechanisms
 
-## Mast cell in asthma 
+## Mast cell in asthma: large-scale mechanistic model
 
 ### Contributors
 
