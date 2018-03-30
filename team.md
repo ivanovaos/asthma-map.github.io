@@ -8,7 +8,22 @@ permalink: /team/
 
 ### Editorial panel
 
+<table>
+<tr>
+  <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/PeterSterk.jpg" width="160"/></p></td>
+  <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/FanChung.jpg" width="160"/></p></td>
+  <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/RichardKnowles.jpg" width="160"/></p></td>
+  <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/CraigWheelock.jpg" width="160"/></p></td>
+</tr>
+</table>
 
+<table>
+<tr>
+  <td style="width: 200px;"><p style="margin:4px;"><strong>Peter Sterk, MD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Professor of the Pathophysiology and Phenotyping of Asthma and COPD at the Faculty of Medicine, University of Amsterdam, Netherlands<br />Coordinator of the IMI U-BIOPRED project</font></p></td>
+  <td style="width: 200px;"><p style="margin:4px;"><strong>Fan Chung, MD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Professor of Respiratory Medicine and Head of Experimental Studies Medicine at the National Heart & Lung Institute, Imperial College London, UK<br />Consultant Physician at the Royal Brompton & Harefield NHS Trust, London</font></p></td>
+  <td style="width: 200px;"><p style="margin:4px;"><strong>Richard Knowles, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Scientific Drug Discovery Consultant at the Stevenage Bioscience Catalyst, Knowles Consulting, Stevenage, UK</font></p></td>
+  <td style="width: 200px;"><p style="margin:4px;"><strong>Craig Wheelock, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Head of the Integrative Molecular Phenotyping laboratory, Division of Physiological Chemistry II, Department of Medical Biochemistry and Biophysics, Stockholm, Karolinska Institutet, Sweden</font></p></td>
+</table>
 
 ### Development team
 
