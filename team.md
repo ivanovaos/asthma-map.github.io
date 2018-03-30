@@ -23,6 +23,7 @@ permalink: /team/
 <td style="width: 200px;"><p style="margin:4px;"><strong>Fan Chung, MD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Professor of Respiratory Medicine and Head of Experimental Studies Medicine at the National Heart & Lung Institute, Imperial College London, UK<br />Consultant Physician at the Royal Brompton & Harefield NHS Trust, London</font></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><strong>Richard Knowles, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Scientific Drug Discovery Consultant at the Stevenage Bioscience Catalyst, Knowles Consulting, Stevenage, UK</font></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><strong>Craig Wheelock, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Head of the Integrative Molecular Phenotyping laboratory, Division of Physiological Chemistry II, Department of Medical Biochemistry and Biophysics, Stockholm, Karolinska Institutet, Sweden</font></p></td>
+</tr>
 </table>
 
 <table>
@@ -40,6 +41,7 @@ permalink: /team/
 <td style="width: 200px;"><p style="margin:4px;"><strong>Ian Adcock, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Professor of Respiratory Cell & Molecular Biology, Head of the Molecular Cell Biology Group at the National Heart & Lung Institute, Imperial College London, UK</font></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><strong>Anke-Hilse Maitland-van der Zee, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Professor Precision Medicine in Respiratory Disease, Academic Medical Center, Amsterdam, Netherlands<br />President of the Federation of Innovative Drug Research in the Netherlands, Coordinator of the ERANET SysPharmPediA project</font></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><strong>Josep Roca, MD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Professor of Medicine at the University of Barcelona, Senior Researcher at IDIBAPS, Senior Consultant at the Hospital Clinic of Barcelona, Spain</font></p></td>
+</tr>
 </table>
 
 ### Development team
@@ -59,6 +61,7 @@ permalink: /team/
 <td style="width: 200px;"><p style="margin:4px;"><strong>Irina Balaur, Phd</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><strong>Charles Auffray, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Research Director at CNRS, Founding Director of the European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><strong>Bertrand De Meulder, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
+</tr>
 </table>
 
 <table>
@@ -72,6 +75,7 @@ permalink: /team/
 <tr>
 <td style="width: 200px;"><p style="margin:4px;"><strong>Olga Ivanova, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Research Intern, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><strong>LudovicRoy, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
+</tr>
 </table>
 
 ### Modelling
