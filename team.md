@@ -46,16 +46,28 @@ permalink: /team/
 <tr>
   <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/AlexanderMazein.jpg" width="160"/></p></td>
   <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/IrinaBalaur.jpg" width="160"/></p></td>
-  <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/OlgaIvanova.jpg" width="160"/></p></td>
+  <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/CharlesAuffray.jpg" width="160"/></p></td>>
   <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/BertrandDeMeulder.jpg" width="160"/></p></td>
 </tr>
 </table>
 <table>
 <tr>
-  <td style="width: 200px;"><p style="margin:4px;"><strong>Alexander Mazein</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Senior Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
-  <td style="width: 200px;"><p style="margin:4px;"><strong>Irina Balaur</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
-  <td style="width: 200px;"><p style="margin:4px;"><strong>Olga Ivanova</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Research Intern, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
-  <td style="width: 200px;"><p style="margin:4px;"><strong>Bertrand De Meulder</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
+  <td style="width: 200px;"><p style="margin:4px;"><strong>Alexander Mazein, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Senior Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
+  <td style="width: 200px;"><p style="margin:4px;"><strong>Irina Balaur, Phd</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
+  <td style="width: 200px;"><p style="margin:4px;"><strong>Charles Auffray, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Research Director at CNRS, Founding Director of the European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
+  <td style="width: 200px;"><p style="margin:4px;"><strong>Bertrand De Meulder, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
+</table>
+
+<table>
+<tr>
+  <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/OlgaIvanova.jpg" width="160"/></p></td>
+  <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/LudovicRoy.jpg" width="160"/></p></td>
+</tr>
+</table>
+<table>
+<tr>
+  <td style="width: 200px;"><p style="margin:4px;"><strong>Olga Ivanova, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Research Intern, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
+  <td style="width: 200px;"><p style="margin:4px;"><strong>LudovicRoy, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
 </table>
 
 ### Modelling
