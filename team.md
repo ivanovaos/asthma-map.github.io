@@ -50,7 +50,7 @@ permalink: /team/
 <tr>
 <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/AlexanderMazein.jpg" width="160"/></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/IrinaBalaur.jpg" width="160"/></p></td>
-<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/CharlesAuffray.jpg" width="160"/></p></td>>
+<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/CharlesAuffray.jpg" width="160"/></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/BertrandDeMeulder.jpg" width="160"/></p></td>
 </tr>
 </table>
