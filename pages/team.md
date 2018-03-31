@@ -6,7 +6,7 @@ permalink: /team/
 
 # AsthmaMap project team
 
-### Editorial panel
+## Editorial panel
 
 <table>
 <tr>
@@ -44,7 +44,7 @@ permalink: /team/
 </tr>
 </table>
 
-### Development team
+## Development team
 
 <table>
 <tr>
@@ -68,6 +68,7 @@ permalink: /team/
 <tr>
 <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/OlgaIvanova.jpg" width="160"/></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/LudovicRoy.jpg" width="160"/></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/VasundraToure.jpg" width="160"/></p></td>
 </tr>
 </table>
 
@@ -75,8 +76,25 @@ permalink: /team/
 <tr>
 <td style="width: 200px;"><p style="margin:4px;"><strong>Olga Ivanova, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Research Intern, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><strong>LudovicRoy, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><strong>Vasundra Touré, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">PhD Student, Norwegian University of Science and Technology (NTNU), Trondheim, Norway</font></p></td>
 </tr>
 </table>
 
-### Modelling
+## Modelling
+
+<table>
+<tr>
+<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/JanHasenauer.jpg" width="160"/></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/noprofile.jpg" width="160"/></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/IrinaBalaur.jpg" width="160"/></p></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td style="width: 200px;"><p style="margin:4px;"><strong>Jan Hasenauer, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Group Leader, Institute of Computational Biology, Helmholtz Zentrum München-German Research Center for Environmental Health, Neuherberg, Germany</font></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><strong>Thomas Ligon, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Faculty of Physics and Center for NanoScience, Ludwig Maximilian University of Munich, Munich, Germany</font></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><strong>Irina Balaur, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
+</tr>
+</table>
 
