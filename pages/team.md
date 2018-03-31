@@ -87,7 +87,7 @@ permalink: /team/
 <table>
 <tr>
 <td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/JanHasenauer.jpg" width="160"/></p></td>
-<td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/noprofile.jpg" width="160"/></p></td>
+<td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/ThomasLigon.jpg" width="160"/></p></td>
 <td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/IrinaBalaur.jpg" width="160"/></p></td>
 </tr>
 </table>
