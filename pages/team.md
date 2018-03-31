@@ -106,13 +106,15 @@ permalink: /team/
 <tr>
 <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/PiotrGawron.jpg" width="160"/></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/MarekOstaszewski.jpg" width="160"/></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/ReinhardSchneider.jpg" width="160"/></p></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td style="width: 200px;"><p style="margin:4px;"><strong>Piotr Gawron, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Luxembourg Centre for Systems Biomedicine, Belval, Luxembourg</font></p></td>
-<td style="width: 200px;"><p style="margin:4px;"><strong>Marek Ostaszewski, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Luxembourg Centre for Systems Biomedicine, Belval, Luxembourg</font></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><strong>Piotr Gawron, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Research Associate, Luxembourg Centre for Systems Biomedicine, Belval, Luxembourg</font></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><strong>Marek Ostaszewski, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, Luxembourg Centre for Systems Biomedicine, Belval, Luxembourg</font></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><strong>Reinhard Schneider, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Head of Bioinformatics Core, Luxembourg Centre for Systems Biomedicine, Belval, Luxembourg</font></p></td>
 </tr>
 </table>
 
