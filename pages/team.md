@@ -98,7 +98,7 @@ permalink: /team/
 <td style="width: 220px;"><p style="margin:4px;"><strong>Jan Hasenauer, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Group Leader, Institute of Computational Biology, Helmholtz Zentrum München-German Research Center for Environmental Health, Neuherberg, Germany</font></p></td>
 <td style="width: 220px;"><p style="margin:4px;"><strong>Thomas Ligon, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Guest Scientist, Faculty of Physics and Center for NanoScience, Ludwig Maximilian University of Munich, Munich, Germany</font></p></td>
 <td style="width: 220px;"><p style="margin:4px;"><strong>Irina Balaur, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
-<td style="width: 220px;"><p style="margin:4px;"><strong>Diane Lefaudeux, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Assistant Specialist, University of California, Los Angeles, US</font></p></td>
+<td style="width: 220px;"><p style="margin:4px;"><strong>Diane Lefaudeux, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Assistant Specialist, Signaling Systems Lab, University of California, Los Angeles, United States</font></p></td>
 </tr>
 </table>
 
