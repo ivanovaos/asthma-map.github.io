@@ -104,8 +104,8 @@ permalink: /team/
 
 <table>
 <tr>
-<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/noprofile.jpg" width="160"/></p></td>
-<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/noprofile.jpg" width="160"/></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/PiotrGawron.jpg" width="160"/></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/MarekOstaszewski.jpg" width="160"/></p></td>
 </tr>
 </table>
 
