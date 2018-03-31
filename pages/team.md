@@ -28,10 +28,10 @@ permalink: /team/
 
 <table>
 <tr>
-<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/SvenErikDahlen.jpg" width="160"/></p></td>
-<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/IanAdcock.jpg" width="160"/></p></td>
-<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/AnkeHilse.jpg" width="160"/></p></td>
-<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/JosepRoca.jpg" width="160"/></p></td>
+<td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/SvenErikDahlen.jpg" width="160"/></p></td>
+<td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/IanAdcock.jpg" width="160"/></p></td>
+<td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/AnkeHilse.jpg" width="160"/></p></td>
+<td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/JosepRoca.jpg" width="160"/></p></td>
 </tr>
 </table>
 
