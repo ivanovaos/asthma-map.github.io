@@ -4,9 +4,9 @@ title: Team
 permalink: /team/
 ---
 
-# AsthmaMap project team
+# Project Team
 
-## Editorial panel
+## Editorial Panel
 
 <table>
 <tr>
@@ -44,7 +44,7 @@ permalink: /team/
 </tr>
 </table>
 
-## Development team
+## Development Team
 
 <table>
 <tr>
@@ -69,15 +69,31 @@ permalink: /team/
 <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/OlgaIvanova.jpg" width="160"/></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/LudovicRoy.jpg" width="160"/></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/VasundraToure.jpg" width="160"/></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/JohannPellet.jpg" width="160"/></p></td>
 </tr>
 </table>
 
 <table>
 <tr>
 <td style="width: 200px;"><p style="margin:4px;"><strong>Olga Ivanova, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Research Intern, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
-<td style="width: 200px;"><p style="margin:4px;"><strong>LudovicRoy, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><strong>Ludovic Roy, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><strong>Vasundra Touré, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">PhD Student, Norwegian University of Science and Technology (NTNU), Trondheim, Norway</font></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><strong>Johann Pellet, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Bioinformatician, Project Manager, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
 </tr>
+</table>
+
+## MINERVA
+
+<table>
+<tr>
+<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/noprofile.jpg" width="160"/></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><img src="/images/team/noprofile.jpg" width="160"/></p></td>
+</table>
+
+<table>
+<tr>
+<td style="width: 200px;"><p style="margin:4px;"><strong>Piotr Gawron, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Luxembourg Centre for Systems Biomedicine, Belval, Luxembourg</font></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><strong>Marek Ostaszewski, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Luxembourg Centre for Systems Biomedicine, Belval, Luxembourg</font></p></td>
 </table>
 
 ## Modelling
