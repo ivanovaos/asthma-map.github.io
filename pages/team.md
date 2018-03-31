@@ -100,7 +100,7 @@ permalink: /team/
 </tr>
 </table>
 
-## MINERVA
+## AsthmaMap support in MINERVA
 
 <table>
 <tr>
