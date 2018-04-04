@@ -87,7 +87,7 @@ permalink: /team/
 <table>
 <tr>
 <td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/TatianaSerebriiskaia.jpg" width="160"/></p></td>
-<td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/noprofile.jpg" width="160"/></p></td>
+<td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/ValeriyaBerzhitskaya.jpg" width="160"/></p></td>
 </tr>
 </table>
 
