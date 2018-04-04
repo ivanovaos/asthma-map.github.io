@@ -82,6 +82,24 @@ permalink: /team/
 </tr>
 </table>
 
+<tr>
+<td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/TatianaSerebriyskaya.jpg" width="160"/></p></td>
+<td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/noprofile.jpg" width="160"/></p></td>
+<td style="width: 220px;"><p style="margin:4px;"> </p></td>
+<td style="width: 220px;"><p style="margin:4px;"> </p></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td style="width: 220px;"><p style="margin:4px;"><strong>Tatiana Serebriyskaya, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Head of the Laboratory for Translational Research and Personalized Medicine, Moscow Institute of Physics and Technology, Moscow, Russia</font></p></td>
+<td style="width: 220px;"><p style="margin:4px;"><strong>Valeriya Berzhitskaya, Phd</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, Moscow Institute of Physics and Technology, Moscow, Russia</font></p></td>
+<td style="width: 220px;"><p style="margin:4px;"> </td>
+<td style="width: 220px;"><p style="margin:4px;"> </td>
+</tr>
+</table>
+
+
 ## Modelling
 
 <table>
