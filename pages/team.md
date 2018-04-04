@@ -44,6 +44,8 @@ permalink: /team/
 </tr>
 </table>
 
+<br />
+
 ## Development Team
 
 <table>
@@ -96,6 +98,7 @@ permalink: /team/
 </tr>
 </table>
 
+<br />
 
 ## Modelling
 
@@ -116,6 +119,8 @@ permalink: /team/
 <td style="width: 220px;"><p style="margin:4px;"><strong>Diane Lefaudeux, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Assistant Specialist, Signaling Systems Lab, University of California, Los Angeles, United States</font></p></td>
 </tr>
 </table>
+
+<br />
 
 ## AsthmaMap support in MINERVA
 
