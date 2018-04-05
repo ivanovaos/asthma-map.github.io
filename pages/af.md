@@ -4,4 +4,4 @@ title: Activity Flow
 permalink: /af/
 ---
 
-# AsthmaMap Activity Flow
+# Activity Flow
