@@ -10,7 +10,7 @@ The high-level view includes multiple cell types and is connected to the underly
 
 ## AsthmaMap Cellular Interactions 1.2
 
-Version 1.2 includes 22 cell types with >50 receptors connected to the pathways on the AF and PD layers. Omics data mapping and interpretation are ongoing. After sufficient validation, proposed endotypes can be used for redefining disease subtypes and fine-tuning of diagnosis and treatment. 
+Version 1.2 includes 22 cell types with more than 50 receptors connected to the corresponding pathways on the AF and PD layers. Omics data mapping and interpretation are ongoing. After sufficient validation, proposed endotypes can be used for redefining disease subtypes and fine-tuning of diagnosis and treatment. 
 
 ![](/images/ci/AsthmaMapCI-V1.2.png)
 
