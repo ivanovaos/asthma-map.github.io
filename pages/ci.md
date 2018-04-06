@@ -24,4 +24,4 @@ Version 1.1 includes 22 cell types with more than 50 receptors connected to the 
 
 ## Ongoing work
 
-In collaboration with the Moscow Institute of Physics and Technology we are preparing an improved version, AsthmaMap Cellular Interactions 2.0, where newly published research is integrated and more suggestions from our extended Editorial Panel are taken into account.  
+In collaboration with the Moscow Institute of Physics and Technology we are preparing an improved version, AsthmaMap Cellular Interactions 2.0 with newly published research integrated and suggestions from our extended Editorial Panel taken into account.  
