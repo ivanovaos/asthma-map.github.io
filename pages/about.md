@@ -16,7 +16,7 @@ The AsthmaMap project progresses in alliance with other efforts of the Disease M
 
 ## Participate
 
-We very much welcome collaboration on the topic of high-quality reconstruction of asthma mechanisms, modelling, hypothesis generation and validation. We actively support the strengthening tendency to large-scale participative open-community projects for approaching complex diseases.  
+We actively support the strengthening tendency to large-scale participative open-community projects for approaching complex diseases and welcome collaboration on the topic of high-quality reconstruction of asthma mechanisms, modelling, hypothesis generation and validation.   
 
 ## Contact
 
