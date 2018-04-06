@@ -10,4 +10,4 @@ The high-level view includes 22 cell types and is connected to the underlying pa
 
 ## AsthmaMap Cellular Intaractions 1.2
 
-![](/images/ci/AsthmaMapCI-V01.01.43.png)
+![](/images/ci/AsthmaMapCI-V1.2.png)
