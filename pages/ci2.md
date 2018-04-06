@@ -12,4 +12,4 @@ The high-level view includes multiple cell types and is connected to the underly
 
 ![](/images/ci/AsthmaMapCI-V1.2-pathol.png)
 
-
+### What is new in version 1.2
