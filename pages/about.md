@@ -6,7 +6,17 @@ permalink: /about/
 
 # About
 
-The project 
+The AsthmaMap is led by the European Institute for Systems Bioloyg and Medicine, Lyon, France. The project initiated as a part of U-BIOPRED (Unbiased Biomarkers for the Prediction of Respiratory Disease Outcomes) data analysis and integration platform and then continued within eTRIKS (European Translational Information and Knowledge Management Services).  
+
+An important part of the AsthmaMap development is the involvement of top experts in the field of asthma, allergic diseases and lung diseases. This way we make sure we are building a trusted reference resource, and the results of this work go towards practical applications in clinics.  
+
+The AsthmaMap project progresses in alliance with other efforts of the Disease Maps Community and communicates with other groups for exchanging experience and best practices.  
+
+AsthmaMap is being developed in close collaboration with the LCSB Parkinson's disease map team. MINERVA platform is employed for online visualisation.  
+
+## Participate
+
+We very much welcome collaboration on the topic of high-quality reconstruction of asthma mechanisms, modelling, hypothesis generation and validation. We actively support the strengthening tendency to large-scale participative open-community projects for approaching complex diseases.  
 
 ## Contact
 
@@ -23,7 +33,4 @@ New "AsthmaMap" could redefine disease and personalize treatment for patients, 1
 
 ## Funding
 
-[IMI U-BIOPRED n°115010](https://www.imi.europa.eu/content/u-biopred)  
-[IMI eTRIKS n°115446](https://www.imi.europa.eu/content/etriks)  
-
-
+The initial phase of the project was funded by [IMI U-BIOPRED n°115010](https://www.imi.europa.eu/content/u-biopred) and then continued with the support of [IMI eTRIKS n°115446](https://www.imi.europa.eu/content/etriks).
