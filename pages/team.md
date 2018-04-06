@@ -70,22 +70,6 @@ permalink: /team/
 <tr>
 <td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/OlgaIvanova.jpg" width="160"/></p></td>
 <td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/LudovicRoy.jpg" width="160"/></p></td>
-<td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/VasundraToure.jpg" width="160"/></p></td>
-<td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/JohannPellet.jpg" width="160"/></p></td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td style="width: 220px;"><p style="margin:4px;"><strong>Olga Ivanova, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Research Intern, European Institute for Systems Biology and Medicine, Lyon, France</font></p><br /></td>
-<td style="width: 220px;"><p style="margin:4px;"><strong>Ludovic Roy, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
-<td style="width: 220px;"><p style="margin:4px;"><strong>Vasundra Touré, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">PhD Student, Norwegian University of Science and Technology (NTNU), Trondheim, Norway</font></p></td>
-<td style="width: 220px;"><p style="margin:4px;"><strong>Johann Pellet, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Bioinformatician, Project Manager, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
-</tr>
-</table>
-
-<table>
-<tr>
 <td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/TatianaSerebriiskaia.jpg" width="160"/></p></td>
 <td style="width: 220px;"><p style="margin:4px;"><img src="/images/team/ValeriyaBerzhitskaya.jpg" width="160"/></p></td>
 </tr>
@@ -93,10 +77,17 @@ permalink: /team/
 
 <table>
 <tr>
+<td style="width: 220px;"><p style="margin:4px;"><strong>Olga Ivanova, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Research Intern, European Institute for Systems Biology and Medicine, Lyon, France</font></p><br /></td>
+<td style="width: 220px;"><p style="margin:4px;"><strong>Ludovic Roy, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
 <td style="width: 220px;"><p style="margin:4px;"><strong>Tatiana Serebriyskaya, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Head of the Laboratory for Translational Research and Personalized Medicine, Moscow Institute of Physics and Technology, Moscow, Russia</font></p></td>
 <td style="width: 220px;"><p style="margin:4px;"><strong>Valeriya Berzhitskaya, PhD</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Researcher, Moscow Institute of Physics and Technology, Moscow, Russia</font></p></td>
 </tr>
 </table>
+
+<!--
+<td style="width: 220px;"><p style="margin:4px;"><strong>Vasundra Touré, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">PhD Student, Norwegian University of Science and Technology (NTNU), Trondheim, Norway</font></p></td>
+<td style="width: 220px;"><p style="margin:4px;"><strong>Johann Pellet, MSc</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Bioinformatician, Project Manager, European Institute for Systems Biology and Medicine, Lyon, France</font></p></td>
+-->
 
 <br />
 
