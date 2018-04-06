@@ -10,9 +10,9 @@ The AsthmaMap is led by the European Institute for Systems Bioloyg and Medicine,
 
 An important part of the AsthmaMap development is the involvement of top experts in the field of asthma, allergic diseases and lung diseases. This way we make sure we are building a trusted reference resource, and the results of this work go towards practical applications in clinics.  
 
-The AsthmaMap project progresses in alliance with other efforts of the Disease Maps Community and communicates with other groups for exchanging experience and best practices.  
-
 AsthmaMap is being developed in close collaboration with the LCSB Parkinson's disease map team. MINERVA platform is employed for online visualisation.  
+
+The AsthmaMap project progresses in alliance with other efforts of the Disease Maps Community and communicates with other groups for exchanging experience and best practices.  
 
 ## Participate
 
