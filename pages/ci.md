@@ -6,13 +6,11 @@ permalink: /ci/
 
 # Cellular Interactions
 
-The high-level view includes multiple cell types and is connected to the underlying pathways. It is designed to be used for data interpretation on systems level while keeping the focus on the involvement of different cell types in asthma pathogenesis.
-
-Ongoing work: with our new partner, the Moscow Institute of Physics and Technology, we are preparing an improved version, AsthmaMap Cellular Interactions 2.0, where newly published research is integrated and more suggestions from our extended Editorial Panel are taken into account.
+The high-level view includes multiple cell types and is connected to the underlying pathways. It is designed to be used for data interpretation on systems level while keeping the focus on the involvement of different cell types in asthma pathogenesis.  
 
 ## AsthmaMap Cellular Interactions 1.2
 
-Version 1.2 includes 22 cell types with more than 50 receptors connected to the corresponding pathways on the AF and PD layers. Omics data mapping and interpretation are ongoing. After sufficient validation, proposed endotypes can be used for redefining disease subtypes and fine-tuning of diagnosis and treatment. 
+Version 1.2 includes 22 cell types with more than 50 receptors connected to the corresponding pathways on the AF and PD layers. Omics data mapping and interpretation are ongoing. After sufficient validation, proposed endotypes can be used for redefining disease subtypes and fine-tuning of diagnosis and treatment.  
 
 ![](/images/ci/AsthmaMapCI-V1.2.png)
 
@@ -23,3 +21,7 @@ Version 1.2 includes 22 cell types with more than 50 receptors connected to the 
 ### Applications
 
 ### Availability
+
+## Ongoing work
+
+With our new partner, the Moscow Institute of Physics and Technology, we are preparing an improved version, AsthmaMap Cellular Interactions 2.0, where newly published research is integrated and more suggestions from our extended Editorial Panel are taken into account.  
