@@ -10,6 +10,6 @@ The high-level view includes multiple cell types and is connected to the underly
 
 ## AsthmaMap Cellular Interactions 1.2
 
-![](/images/ci/AsthmaMapCI-V1.2.png)
+![](/images/ci/AsthmaMapCI-V1.2-pathol.png)
 
 
