@@ -10,19 +10,19 @@ The AsthmaMap Activity Flow layer consists of 21 diagrams for different cell typ
 
 <table>
     <tr valign="bottom">
-      <td style="width: 225px;" align="center"> <a href="/glycolysis/"><br />Eosinophil</a> <br /> <font size="2"> 
+      <td style="width: 225px;" align="center"> <a href="/af/eosinophil.svg"><br />Eosinophil</a> <br /> <font size="2"> 
 <a href="/af/eosinophil.graphml" target="_blank">GraphML</a> &nbsp;
 <a href="/af/eosinophil.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/eicosanoids/"><br />Mast cell</a> <br /> <font size="2"> 
+      <td style="width: 225px;" align="center"> <a href="/af/mastcell.svg"><br />Mast cell</a> <br /> <font size="2"> 
 <a href="/af/mastcell.graphml" target="_blank">GraphML</a> &nbsp; 
 <a href="/af/mastcell.sbgn" target="_blank">SBGN-ML</a> &nbsp; 
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/mevalonate/"><br />Microphage</a> <br /> <font size="2"> 
+      <td style="width: 225px;" align="center"> <a href="/af/microphage.svg"><br />Microphage</a> <br /> <font size="2"> 
 <a href="/af/microphage.graphml" target="_blank">GraphML</a> &nbsp;
 <a href="/af/microphage.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/glycogen/"><br />Neutrophil</a> <br /> <font size="2"> 
+      <td style="width: 225px;" align="center"> <a href="/af/neutrophil.svg"><br />Neutrophil</a> <br /> <font size="2"> 
 <a href="/af/neutrophil.graphml" target="_blank">GraphML</a> &nbsp;
 <a href="/af/neutrophil.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
@@ -30,10 +30,10 @@ The AsthmaMap Activity Flow layer consists of 21 diagrams for different cell typ
 </table>
 <table>
     <tr>
-      <td style="width: 225px;" align="center"><a href="/glycolysis/"><img src="/images/af/F000-empty-cut.png.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
-      <td style="width: 225px;" align="center"><a href="/eicosanoids/"><img src="/images/af/F000-empty-cut.png.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
-      <td style="width: 225px;" align="center"><a href="/mevalonate/"><img src="/images/af/F000-empty-cut.png.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
-      <td style="width: 225px;" align="center"><a href="/glycogen/"><img src="/images/af/F000-empty-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
+      <td style="width: 225px;" align="center"><a href="/af/eosinophil.svg"><img src="/images/af/F000-empty-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
+      <td style="width: 225px;" align="center"><a href="/af/mastcell.svg"><img src="/images/af/F000-empty-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
+      <td style="width: 225px;" align="center"><a href="/af/microphage.svg"><img src="/images/af/F000-empty-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
+      <td style="width: 225px;" align="center"><a href="/af/neutrophil.svg"><img src="/images/af/F000-empty-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
     </tr>
 </table>
 
