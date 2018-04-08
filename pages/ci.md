@@ -18,7 +18,7 @@ Version 1.1 includes 22 cell types with more than 50 receptors connected to the 
 
 ### Format
 
-The diagram is created in the [yEd Graph Editor](https://www.yworks.com/products/yed#) in a format compatible with the SBGN Activity Flow.
+The diagram is created in the [yEd Graph Editor](https://www.yworks.com/products/yed#) in a rule-based format compatible with the SBGN Activity Flow.
 
 ### Applications
 
