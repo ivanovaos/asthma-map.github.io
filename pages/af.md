@@ -12,20 +12,20 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
 <table>
     <tr valign="bottom">
       <td style="width: 225px;" align="center"> <a href="/images/af/F001-DendriticCell.svg"><br />Dendritic cell</a> <br /> <font size="2"> 
-<a href="/images/af/F001-DendriticCell.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/images/af/F001-DendriticCell.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+<a href="/images/af/F001-DendriticCell.graphml">GraphML</a> &nbsp;
+<a href="/images/af/F001-DendriticCell.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
       <td style="width: 225px;" align="center"> <a href="/images/af/F002-AirwayEpithelialCell.svg"><br />Airway epithelial cell</a> <br /> <font size="2"> 
-<a href="/images/af/F002-AirwayEpithelialCell.graphml" target="_blank">GraphML</a> &nbsp; 
-<a href="/images/af/F002-AirwayEpithelialCell.sbgn" target="_blank">SBGN-ML</a> &nbsp; 
+<a href="/images/af/F002-AirwayEpithelialCell.graphml">GraphML</a> &nbsp; 
+<a href="/images/af/F002-AirwayEpithelialCell.sbgn">SBGN-ML</a> &nbsp; 
 </font> </td>
       <td style="width: 225px;" align="center"> <a href="/af/microphage.svg"><br />Microphage</a> <br /> <font size="2"> 
-<a href="/af/microphage.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/af/microphage.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+<a href="/af/microphage.graphml">GraphML</a> &nbsp;
+<a href="/af/microphage.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
       <td style="width: 225px;" align="center"> <a href="/af/neutrophil.svg"><br />Neutrophil</a> <br /> <font size="2"> 
-<a href="/af/neutrophil.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/af/neutrophil.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+<a href="/af/neutrophil.graphml">GraphML</a> &nbsp;
+<a href="/af/neutrophil.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
     </tr>
 </table>
