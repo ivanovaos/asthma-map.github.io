@@ -11,7 +11,7 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
 <!--Row #1-->
 <table>
     <tr valign="bottom">
-      <td style="width: 225px;" align="center"> <a href="images/af/F001-DendriticCell.svg"><br />Dendritic cell</a> <br /> <font size="2"> 
+      <td style="width: 225px;" align="center"> <a href="/images/af/F001-DendriticCell.svg"><br />Dendritic cell</a> <br /> <font size="2"> 
 <a href="/images/af/F001-DendriticCell.graphml" target="_blank">GraphML</a> &nbsp;
 <a href="/af/eosinophil.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
@@ -31,7 +31,7 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
 </table>
 <table>
     <tr>
-      <td style="width: 225px;" align="center"><a href="images/af/F001-DendriticCell.svg"><img src="/images/af/F001-DendriticCell-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
+      <td style="width: 225px;" align="center"><a href="/images/af/F001-DendriticCell.svg"><img src="/images/af/F001-DendriticCell-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
       <td style="width: 225px;" align="center"><a href="/af/mastcell.svg"><img src="/images/af/F000-empty-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
       <td style="width: 225px;" align="center"><a href="/af/microphage.svg"><img src="/images/af/F000-empty-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
       <td style="width: 225px;" align="center"><a href="/af/neutrophil.svg"><img src="/images/af/F000-empty-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
