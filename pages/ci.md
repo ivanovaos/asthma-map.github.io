@@ -24,7 +24,7 @@ The diagram is created in the [yEd Graph Editor](https://www.yworks.com/products
 
 ### Applications
 
-The diagram is intended for 1) managing the AsthmaMap resource and defining disease hallmarks; 2) omics data visualisation via connecting this layer to the Activity Flow layer, 3) presenting asthma endotypes as patterns of cell types and pathways invovled.
+The Cellular Interactions layer is intended for 1) managing the AsthmaMap resource and defining disease hallmarks; 2) omics data visualisation via connecting this layer to the Activity Flow layer, 3) presenting asthma endotypes as patterns of cell types and pathways invovled.
 
 ### Availability
 
