@@ -16,11 +16,15 @@ Version 1.1 includes 22 cell types with more than 50 receptors connected to the 
 
 ### Content
 
+The Cellular Interaction layer outlines asthma mechanisms and serves as a platform for communication with domain experts for defining the content of the AsthmaMap resources and elements to be included in the description of asthma mechanisms. This high-level view is connected to detailed layers and this way allows managing this complex and extensive reconstruction.
+
 ### Format
 
 The diagram is created in the [yEd Graph Editor](https://www.yworks.com/products/yed#) in a rule-based format compatible with the SBGN Activity Flow.
 
 ### Applications
+
+The diagram is intended for 1) managing the AsthmaMap resource and defining disease hallmarks; 2) omics data visualisation via connecting this layer to the Activity Flow layer, 3) presenting asthma endotypes as patterns of cell types and pathways invovled.
 
 ### Availability
 
@@ -28,4 +32,4 @@ Available for downloding in various formats via [Downloads](/downloads/) page.
 
 ## Ongoing work
 
-In collaboration with the Laboratory for Translational Research and Personalized Medicine at the Moscow Institute of Physics and Technology we are preparing an improved version [AsthmaMap Cellular Interactions 1.2](/ci2/) with newly published research integrated and suggestions from our extended Editorial Panel taken into account.  
+In collaboration with the Laboratory for Translational Research and Personalized Medicine at the Moscow Institute of Physics and Technology we are preparing an improved version AsthmaMap Cellular Interactions 1.2 with newly published research integrated and suggestions from our extended Editorial Panel taken into account.  
