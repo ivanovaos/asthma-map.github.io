@@ -13,11 +13,11 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
     <tr valign="bottom">
       <td style="width: 225px;" align="center"> <a href="/images/af/F001-DendriticCell.svg"><br />Dendritic cell</a> <br /> <font size="2"> 
 <a href="/images/af/F001-DendriticCell.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/af/eosinophil.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+<a href="/images/af/F001-DendriticCell.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/af/mastcell.svg"><br />Mast cell</a> <br /> <font size="2"> 
-<a href="/af/mastcell.graphml" target="_blank">GraphML</a> &nbsp; 
-<a href="/af/mastcell.sbgn" target="_blank">SBGN-ML</a> &nbsp; 
+      <td style="width: 225px;" align="center"> <a href="/images/af/F002-AirwayEpithelialCell.svg"><br />Airway epithelial cell</a> <br /> <font size="2"> 
+<a href="/images/af/F002-AirwayEpithelialCell.graphml" target="_blank">GraphML</a> &nbsp; 
+<a href="/images/af/F002-AirwayEpithelialCell.sbgn" target="_blank">SBGN-ML</a> &nbsp; 
 </font> </td>
       <td style="width: 225px;" align="center"> <a href="/af/microphage.svg"><br />Microphage</a> <br /> <font size="2"> 
 <a href="/af/microphage.graphml" target="_blank">GraphML</a> &nbsp;
@@ -32,7 +32,7 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
 <table>
     <tr>
       <td style="width: 225px;" align="center"><a href="/images/af/F001-DendriticCell.svg"><img src="/images/af/F001-DendriticCell-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
-      <td style="width: 225px;" align="center"><a href="/af/mastcell.svg"><img src="/images/af/F000-empty-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
+      <td style="width: 225px;" align="center"><a href="/images/af/F002-AirwayEpithelialCell.svg"><img src="/images/af/F002-AirwayEpithelialCell-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
       <td style="width: 225px;" align="center"><a href="/af/microphage.svg"><img src="/images/af/F000-empty-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
       <td style="width: 225px;" align="center"><a href="/af/neutrophil.svg"><img src="/images/af/F000-empty-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
     </tr>
