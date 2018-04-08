@@ -6,7 +6,7 @@ permalink: /downloads/
 
 # Downloads
 
-# AsthmaMap Cellular Interactions
+## AsthmaMap Cellular Interactions
 
 AsthmaMap Cellular Interactions 1.1  
 
