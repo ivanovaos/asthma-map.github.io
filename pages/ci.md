@@ -30,6 +30,6 @@ The Cellular Interactions layer is intended for 1) managing the AsthmaMap resour
 
 Available for downloding in various formats via [Downloads](/downloads/) page.
 
-## Ongoing work
+## AsthmaMap Cellular Interactions 1.2 - ongoing work
 
 In collaboration with the Laboratory for Translational Research and Personalized Medicine at the Moscow Institute of Physics and Technology we are preparing an improved version AsthmaMap Cellular Interactions 1.2 with newly published research integrated and suggestions from our extended Editorial Panel taken into account.  
