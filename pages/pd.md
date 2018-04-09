@@ -16,4 +16,4 @@ AsthmaMap Process Description [Mast Cell Module 0.40 in MINERVA](http://asthma.u
 
 ### Availability 
 
-AsthmaMap Process Description [Eicosanoid Production Module 0.42](http://asthma.uni.lu/minerva/index.xhtml?id=AA_V42_SBGN&x=2050&y=1050&zoom=4)
+AsthmaMap Process Description [Eicosanoid Production Module 0.42 in MINERVA](http://asthma.uni.lu/minerva/index.xhtml?id=AA_V42_SBGN&x=2050&y=1050&zoom=4)
