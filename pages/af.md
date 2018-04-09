@@ -111,7 +111,7 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
 <a href="/af/mastcell.graphml" target="_blank">GraphML</a> &nbsp; 
 <a href="/af/mastcell.sbgn" target="_blank">SBGN-ML</a> &nbsp; 
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/af/microphage.svg"><br />Microphage</a> <br /> <font size="2"> 
+      <td style="width: 225px;" align="center"> <a href="/af/microphage.svg"><br />Goblet cell</a> <br /> <font size="2"> 
 <a href="/af/microphage.graphml" target="_blank">GraphML</a> &nbsp;
 <a href="/af/microphage.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
