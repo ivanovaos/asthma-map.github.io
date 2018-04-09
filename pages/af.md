@@ -19,13 +19,13 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
 <a href="/images/af/F002-AirwayEpithelialCell.graphml">GraphML</a> &nbsp; 
 <a href="/images/af/F002-AirwayEpithelialCell.sbgn">SBGN-ML</a> &nbsp; 
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/af/microphage.svg"><br />Microphage</a> <br /> <font size="2"> 
-<a href="/af/microphage.graphml">GraphML</a> &nbsp;
-<a href="/af/microphage.sbgn">SBGN-ML</a> &nbsp;
+      <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Microphage</a> <br /> <font size="2"> 
+<a href="/images/af/F000-TEST.graphml">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/af/neutrophil.svg"><br />Neutrophil</a> <br /> <font size="2"> 
-<a href="/af/neutrophil.graphml">GraphML</a> &nbsp;
-<a href="/af/neutrophil.sbgn">SBGN-ML</a> &nbsp;
+      <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Neutrophil</a> <br /> <font size="2"> 
+<a href="/images/af/F000-TEST.graphml">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
     </tr>
 </table>
@@ -41,21 +41,21 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
 <!--Row #2-->
 <table>
     <tr valign="bottom">
-      <td style="width: 225px;" align="center"> <a href="/af/eosinophil.svg"><br />Eosinophil</a> <br /> <font size="2"> 
-<a href="/af/eosinophil.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/af/eosinophil.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+      <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Eosinophil</a> <br /> <font size="2"> 
+<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
       <td style="width: 225px;" align="center"> <a href="/images/af/F012-MastCell.svg"><br />Mast cell</a> <br /> <font size="2"> 
 <a href="/images/af/F012-MastCell.graphml">GraphML</a> &nbsp;
 <a href="/images/af/F012-MastCell.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/af/microphage.svg"><br />Airway smooth muscle cell</a> <br /> <font size="2"> 
-<a href="/af/microphage.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/af/microphage.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+      <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Airway smooth muscle cell</a> <br /> <font size="2"> 
+<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/af/neutrophil.svg"><br />Fibroblast</a> <br /> <font size="2"> 
-<a href="/af/neutrophil.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/af/neutrophil.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+      <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Fibroblast</a> <br /> <font size="2"> 
+<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
     </tr>
 </table>
@@ -71,21 +71,21 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
 <!--Row #3-->
 <table>
     <tr valign="bottom">
-      <td style="width: 225px;" align="center"> <a href="/af/eosinophil.svg"><br />Eosinophil precursor</a> <br /> <font size="2"> 
-<a href="/af/eosinophil.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/af/eosinophil.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+      <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Eosinophil precursor</a> <br /> <font size="2"> 
+<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/af/mastcell.svg"><br />B cell</a> <br /> <font size="2"> 
-<a href="/af/mastcell.graphml" target="_blank">GraphML</a> &nbsp; 
-<a href="/af/mastcell.sbgn" target="_blank">SBGN-ML</a> &nbsp; 
+      <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />B cell</a> <br /> <font size="2"> 
+<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp; 
+<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp; 
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/af/microphage.svg"><br />Th0</a> <br /> <font size="2"> 
-<a href="/af/microphage.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/af/microphage.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+      <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Th0</a> <br /> <font size="2"> 
+<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/af/neutrophil.svg"><br />Th2</a> <br /> <font size="2"> 
-<a href="/af/neutrophil.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/af/neutrophil.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+      <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Th2</a> <br /> <font size="2"> 
+<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
     </tr>
 </table>
@@ -102,21 +102,21 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
 <!--Row #4-->
 <table>
     <tr valign="bottom">
-      <td style="width: 225px;" align="center"> <a href="/af/eosinophil.svg"><br />ILC precursor</a> <br /> <font size="2"> 
-<a href="/af/eosinophil.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/af/eosinophil.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+      <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />ILC precursor</a> <br /> <font size="2"> 
+<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/af/mastcell.svg"><br />ILC2</a> <br /> <font size="2"> 
-<a href="/af/mastcell.graphml" target="_blank">GraphML</a> &nbsp; 
-<a href="/af/mastcell.sbgn" target="_blank">SBGN-ML</a> &nbsp; 
+      <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />ILC2</a> <br /> <font size="2"> 
+<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp; 
+<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp; 
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/af/microphage.svg"><br />Goblet cell</a> <br /> <font size="2"> 
-<a href="/af/microphage.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/af/microphage.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+      <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Goblet cell</a> <br /> <font size="2"> 
+<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/af/neutrophil.svg"><br />Treg</a> <br /> <font size="2"> 
-<a href="/af/neutrophil.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/af/neutrophil.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+      <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Treg</a> <br /> <font size="2"> 
+<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
 </font> </td>
     </tr>
 </table>
