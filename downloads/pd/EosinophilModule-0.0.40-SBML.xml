@@ -1,0 +1,2379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+<model metaid="ASTHMAP18000X8000V101" id="ASTHMAP18000X8000V101">
+<annotation/>
+<listOfUnitDefinitions>
+<unitDefinition metaid="substance" id="substance" name="substance">
+<listOfUnits>
+<unit metaid="CDMT01216" kind="mole"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="volume" id="volume" name="volume">
+<listOfUnits>
+<unit metaid="CDMT01217" kind="litre"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="area" id="area" name="area">
+<listOfUnits>
+<unit metaid="CDMT01218" kind="metre" exponent="2"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="length" id="length" name="length">
+<listOfUnits>
+<unit metaid="CDMT01219" kind="metre"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="time" id="time" name="time">
+<listOfUnits>
+<unit metaid="CDMT01220" kind="second"/>
+</listOfUnits>
+</unitDefinition>
+</listOfUnitDefinitions>
+<listOfCompartments>
+<compartment metaid="default" id="default" size="1" units="volume"/>
+<compartment metaid="c5" id="c5" name="NUCLEUS" size="1" units="volume" outside="default">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c5">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005634"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</compartment>
+<compartment metaid="c6" id="c6" name="ENDOPLASMIC RETICULUM" size="1" units="volume" outside="default">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c6">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005783"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</compartment>
+<compartment metaid="c9" id="c9" name="EOSINOPHIL" size="1" units="volume" outside="default">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c9">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:mesh:D004804"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</compartment>
+</listOfCompartments>
+<listOfSpecies>
+<species metaid="s310" id="s310" name="PIP3-PDPK1" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s316" id="s316" name="PIP3-AKT" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s317" id="s317" name="PIP3-AKT" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s701" id="s701" name="IKKα-IKKβ-NEMO" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s683" id="s683" name="IKKα-IKKβ-NEMO" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s695" id="s695" name="IκBα-NFκB" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s423" id="s423" name="LTB4" compartment="default" initialAmount="0" charge="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s423">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15647"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s424" id="s424" name="LTC4" compartment="default" initialAmount="0" charge="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s424">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16978"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s201" id="s201" name="LTD4" compartment="default" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s201">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A28666"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s203" id="s203" name="LTE4" compartment="default" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s203">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15650"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s427" id="s427" name="PAF" compartment="default" initialAmount="0" charge="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s427">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A36707"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s428" id="s428" name="EXC4" compartment="default" initialAmount="0" charge="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s428">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A63984"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s253" id="s253" name="EXD4" compartment="default" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s253">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A63985"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s254" id="s254" name="EXE4" compartment="default" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s254">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A63986"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s305" id="s305" name="PTEN" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s306" id="s306" name="AKT" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s307" id="s307" name="PDPK1" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s392" id="s392" name="Ca2+" compartment="default" initialAmount="0" charge="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s392">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A29108"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s383" id="s383" name="CALM1" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s387" id="s387" name="PIP2" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s394" id="s394" name="ITPR3" compartment="c6" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s467" id="s467" name="IL3" compartment="default" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s468" id="s468" name="IL5" compartment="default" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s732" id="s732" name="Histamine" compartment="default" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s732">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A18295"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s733" id="s733" name="Heparin" compartment="default" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s733">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A28304"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s739" id="s739" name="CSF2" compartment="default" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s536" id="s536" name="MAP3K1" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s535" id="s535" name="MAP3K1" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s537" id="s537" name="MAP2K4" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s538" id="s538" name="MAP2K7" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s542" id="s542" name="MAP2K4" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s543" id="s543" name="MAP2K7" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s539" id="s539" name="MAPK8" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s540" id="s540" name="MAPK9" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s541" id="s541" name="MAPK10" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s697" id="s697" name="NFKBIA" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s1004" id="s1004" name="TRPC1" compartment="c9" initialAmount="0" charge="0">
+<annotation/>
+</species>
+<species metaid="s1342" id="s1342" name="Calmodulin" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1370" id="s1370" name="AKT" compartment="c5" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1375" id="s1375" name="JUN-FOS" compartment="c5" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1378" id="s1378" name="NFκB complex" compartment="c5" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1382" id="s1382" name="Gene expression" compartment="c5" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s1382">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0010467"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s1383" id="s1383" name="MAPK8" compartment="c5" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1384" id="s1384" name="MAPK9" compartment="c5" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1385" id="s1385" name="MAPK10" compartment="c5" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1386" id="s1386" name="JUN" compartment="c5" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1387" id="s1387" name="FOS" compartment="c5" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1388" id="s1388" name="JUN" compartment="c5" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1389" id="s1389" name="FOS" compartment="c5" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1390" id="s1390" name="MAPK3" compartment="c5" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1391" id="s1391" name="MAPK1" compartment="c5" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1401" id="s1401" name="Ca2+" compartment="c6" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s1401">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A29108"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s1403" id="s1403" name="ITPR2" compartment="c6" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1404" id="s1404" name="ITPR1" compartment="c6" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1793" id="s1793" name="Ras-GTP" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1796" id="s1796" name="Ras-GDP" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s1799" id="s1799" name="ALOX5-FLAP" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2010" id="s2010" name="RAF1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2011" id="s2011" name="RAF1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2012" id="s2012" name="PLA2G4A" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2013" id="s2013" name="PLA2G4A" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2014" id="s2014" name="Arachidonate" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2014">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15843"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2034" id="s2034" name="5(S)-HpETE" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2034">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15632"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2035" id="s2035" name="LTA4" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2035">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15651"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2040" id="s2040" name="MAP2K1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2042" id="s2042" name="MAPK1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2043" id="s2043" name="MAPK3" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2044" id="s2044" name="MAPK1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2045" id="s2045" name="15(S)-HpETE" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2045">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15628"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2048" id="s2048" name="5,6-Epoxytetraene" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2048">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A64095"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2049" id="s2049" name="LXA4" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2049">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A6498"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2051" id="s2051" name="LTA4H" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2053" id="s2053" name="LTC4S" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2054" id="s2054" name="GGT5" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2062" id="s2062" name="ABCC1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2063" id="s2063" name="DPEP1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2064" id="s2064" name="DPEP2" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2065" id="s2065" name="DPEP3" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2066" id="s2066" name="ABCC4" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2068" id="s2068" name="5(S)-HETE" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2068">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A28209"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2074" id="s2074" name="Lyso-PAF" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2074">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:kegg.compound:C04317"/>
+</rdf:Bag>
+</bqmodel:is>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A30909"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2076" id="s2076" name="LPCAT2" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2077" id="s2077" name="LPCAT2" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2081" id="s2081" name="LXB4" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2081">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A6499"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2082" id="s2082" name="ALOX12" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2083" id="s2083" name="EXA4" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2083">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A63983"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2086" id="s2086" name="SHC1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2100" id="s2100" name="DAG" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2100">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A17815"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2147" id="s2147" name="ABCC3" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2148" id="s2148" name="ABCB1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2149" id="s2149" name="ABCC6" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2150" id="s2150" name="ABCC10" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2151" id="s2151" name="ABCC11" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2161" id="s2161" name="NFκB complex" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2184" id="s2184" name="Ca2+" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2184">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A29108"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2185" id="s2185" name="MAPK8" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2186" id="s2186" name="MAPK9" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2187" id="s2187" name="MAPK10" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2189" id="s2189" name="AKT" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2192" id="s2192" name="MAPK3" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2193" id="s2193" name="MAPK1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2248" id="s2248" name="CSF2RB" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2249" id="s2249" name="JAK2" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2259" id="s2259" name="IL3RA" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2260" id="s2260" name="IL3RB" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2270" id="s2270" name="IL3R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2271" id="s2271" name="IL3RA" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2273" id="s2273" name="IL5" compartment="default" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2274" id="s2274" name="IL5RA" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2285" id="s2285" name="IL5R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2286" id="s2286" name="IL5R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2287" id="s2287" name="CSFR2RA" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2288" id="s2288" name="CSF2R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2296" id="s2296" name="CSF2R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2306" id="s2306" name="CSF2R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2312" id="s2312" name="IL5R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2318" id="s2318" name="IL3R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2319" id="s2319" name="IL3R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2324" id="s2324" name="IL5R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2329" id="s2329" name="CSF2R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2334" id="s2334" name="STAT5A" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2358" id="s2358" name="STAT5A" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2357" id="s2357" name="STAT5A" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2359" id="s2359" name="STAT5A" compartment="c5" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2360" id="s2360" name="IL3R-YWHAZ" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2369" id="s2369" name="IL5R-YWHAZ" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2371" id="s2371" name="IL5R-YWHAZ" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2382" id="s2382" name="YWHAZ" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2383" id="s2383" name="PRKACA" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2384" id="s2384" name="IL3R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2389" id="s2389" name="IL5R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2394" id="s2394" name="CSF2R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2400" id="s2400" name="IL5R-YWHAZ" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2408" id="s2408" name="IL5R-YWHAZ" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2416" id="s2416" name="IL3R-YWHAZ" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2423" id="s2423" name="CSF2R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2428" id="s2428" name="IL5R" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2433" id="s2433" name="CSF2R-SHC1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2442" id="s2442" name="IL5R-SHC1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2444" id="s2444" name="IL3R-SHC1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2459" id="s2459" name="CSF2R-SHC1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2468" id="s2468" name="IL5R-SHC1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2477" id="s2477" name="IL3R-SHC1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2611" id="s2611" name="ITPR1-IP3" compartment="c6" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2615" id="s2615" name="ITPR1-IP3" compartment="c6" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2619" id="s2619" name="ITPR1-IP3" compartment="c6" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2183" id="s2183" name="PI(3,4,5)P3" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2183">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16618"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2182" id="s2182" name="I(1,4,5)P3" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2182">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16595"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2015" id="s2015" name="Phosphatidylcholine" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2015">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16110"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2742" id="s2742" name="ABCC2" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2743" id="s2743" name="GRB2-SOS1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2754" id="s2754" name="Plasmanylcholine" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2754">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A36702"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2764" id="s2764" name="ALOX15B" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s426" id="s426" name="5-oxo-ETE" compartment="default" initialAmount="0" charge="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s426">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A52449"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2765" id="s2765" name="12-oxo-ETE" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2765">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A34151"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2766" id="s2766" name="15(S)-HETE" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2766">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15558"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2767" id="s2767" name="15-oxo-ETE" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2767">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15559"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2769" id="s2769" name="12(S)-HpETE" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2769">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15626"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2770" id="s2770" name="12(S)-HETE" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2770">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A34146"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2771" id="s2771" name="Heopxilin A3" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2771">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A36190"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2772" id="s2772" name="Hepoxilin B3" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2772">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A34784"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2773" id="s2773" name="Trioxilin A3" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2773">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A36203"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2774" id="s2774" name="Trioxilin B3" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2774">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A35032"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2887" id="s2887" name="ALOX15" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2888" id="s2888" name="GPX1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2889" id="s2889" name="GPX2" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2890" id="s2890" name="GPX4" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2892" id="s2892" name="EXC4" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2892">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A63984"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2893" id="s2893" name="Histamine" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2893">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A18295"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2894" id="s2894" name="Heparin" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2894">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A28304"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2895" id="s2895" name="LTB4" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2895">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15647"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2896" id="s2896" name="LTC4" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2896">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16978"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2897" id="s2897" name="5-oxo-ETE" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2897">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A52449"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2898" id="s2898" name="PAF" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2898">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A36707"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2110" id="s2110" name="Eosinophil degranulation" compartment="c9" initialAmount="0">
+<annotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s2110">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0043308"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s2950" id="s2950" name="MAP2K1" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2951" id="s2951" name="MAPK3" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2886" id="s2886" name="MAP2K2" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s2952" id="s2952" name="MAP2K2" compartment="c9" initialAmount="0">
+<annotation/>
+</species>
+</listOfSpecies>
+<listOfReactions>
+<reaction metaid="CDMT00547" id="re188" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00548" species="s1796"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00549" species="s1793"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00013" species="s2468"/>
+<modifierSpeciesReference metaid="CDMT00301" species="s2459"/>
+<modifierSpeciesReference metaid="CDMT00302" species="s2477"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="CDMT00552" id="re189" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00553" species="s1793"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00554" species="s1796"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="CDMT00555" id="re190" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00556" species="s2010"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00557" species="s2011"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00558" species="s1793"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="CDMT00559" id="re191" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00560" species="s2012"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00561" species="s2013"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00562" species="s2043"/>
+<modifierSpeciesReference metaid="CDMT00563" species="s2042"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re192" id="re192" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00564" species="s2015"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00565" species="s2014"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00566" species="s2013"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re205" id="re205" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00604" species="s2014"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00605" species="s2034"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00606" species="s1799"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re206" id="re206" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00607" species="s2034"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00608" species="s2035"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00609" species="s1799"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re207" id="re207" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00610" species="s2950"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00611" species="s2040"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00612" species="s2011"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re208" id="re208" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00613" species="s2886"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00614" species="s2952"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00615" species="s2011"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re209" id="re209" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00616" species="s2951"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00617" species="s2043"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00618" species="s2040"/>
+<modifierSpeciesReference metaid="CDMT00619" species="s2952"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re210" id="re210" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00620" species="s2044"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00621" species="s2042"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00622" species="s2040"/>
+<modifierSpeciesReference metaid="CDMT00623" species="s2952"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re211" id="re211" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00624" species="s2014"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00625" species="s2045"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00626" species="s2887"/>
+<modifierSpeciesReference metaid="CDMT00627" species="s2764"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re212" id="re212" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00628" species="s2045"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00629" species="s2048"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re213" id="re213" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00630" species="s2035"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00631" species="s2048"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re214" id="re214" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00632" species="s2048"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00633" species="s2049"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00634" species="s2082"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re215" id="re215" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00635" species="s2035"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00636" species="s2895"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00637" species="s2051"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re216" id="re216" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00638" species="s2035"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00639" species="s2896"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00640" species="s2053"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re217" id="re217" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00641" species="s424"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00642" species="s201"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00643" species="s2054"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re218" id="re218" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00644" species="s201"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00645" species="s203"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00646" species="s2063"/>
+<modifierSpeciesReference metaid="CDMT00647" species="s2064"/>
+<modifierSpeciesReference metaid="CDMT00648" species="s2065"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re224" id="re224" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00664" species="s2896"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00665" species="s424"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00666" species="s2062"/>
+<modifierSpeciesReference metaid="CDMT00667" species="s2066"/>
+<modifierSpeciesReference metaid="CDMT00668" species="s2742"/>
+<modifierSpeciesReference metaid="CDMT00669" species="s2147"/>
+<modifierSpeciesReference metaid="CDMT00670" species="s2149"/>
+<modifierSpeciesReference metaid="CDMT00671" species="s2150"/>
+<modifierSpeciesReference metaid="CDMT00672" species="s2151"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re228" id="re228" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00684" species="s2034"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00685" species="s2068"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00686" species="s2888"/>
+<modifierSpeciesReference metaid="CDMT00687" species="s2889"/>
+<modifierSpeciesReference metaid="CDMT00688" species="s2890"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re229" id="re229" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00689" species="s2068"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00690" species="s2897"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re230" id="re230" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00692" species="s2895"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00693" species="s423"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00694" species="s2066"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re231" id="re231" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00695" species="s2074"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00696" species="s2898"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00697" species="s2076"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re232" id="re232" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00698" species="s2077"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00699" species="s2076"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re233" id="re233" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00701" species="s2754"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00702" species="s2074"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00703" species="s2013"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re234" id="re234" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00704" species="s2898"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00705" species="s427"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00706" species="s2148"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re235" id="re235" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00707" species="s2897"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00708" species="s426"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re236" id="re236" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00709" species="s2048"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00710" species="s2081"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00711" species="s2082"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re237" id="re237" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00712" species="s2035"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00713" species="s2083"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00714" species="s2887"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re238" id="re238" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00715" species="s2083"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00716" species="s2892"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00717" species="s1799"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re239" id="re239" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00718" species="s2892"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00719" species="s428"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re240" id="re240" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00720" species="s428"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00721" species="s253"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00722" species="s2054"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re241" id="re241" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00723" species="s253"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00724" species="s254"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00725" species="s2063"/>
+<modifierSpeciesReference metaid="CDMT00726" species="s2065"/>
+<modifierSpeciesReference metaid="CDMT00727" species="s2064"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re249" id="re249" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00749" species="s2182"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00750" species="s2183"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00303" species="s2416"/>
+<modifierSpeciesReference metaid="CDMT00304" species="s2408"/>
+<modifierSpeciesReference metaid="CDMT00305" species="s2400"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re250" id="re250" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00752" species="s2183"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00753" species="s2182"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00754" species="s305"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re251" id="re251" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00755" species="s2183"/>
+<speciesReference metaid="CDMT00756" species="s307"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00757" species="s310"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re252" id="re252" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00758" species="s2183"/>
+<speciesReference metaid="CDMT00759" species="s306"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00760" species="s317"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re253" id="re253" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00761" species="s317"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00762" species="s316"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00763" species="s310"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re254" id="re254" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00764" species="s1401"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00765" species="s2184"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00766" species="s2611"/>
+<modifierSpeciesReference metaid="CDMT00767" species="s2615"/>
+<modifierSpeciesReference metaid="CDMT00768" species="s2619"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re260" id="re260" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00784" species="s383"/>
+<speciesReference metaid="CDMT00785" species="s2184"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00786" species="s1342"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re261" id="re261" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00787" species="s387"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00788" species="s2100"/>
+<speciesReference metaid="CDMT00789" species="s2182"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re262" id="re262" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00791" species="s394"/>
+<speciesReference metaid="CDMT00792" species="s2182"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00793" species="s2611"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re263" id="re263" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00794" species="s1403"/>
+<speciesReference metaid="CDMT00795" species="s2182"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00796" species="s2615"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re264" id="re264" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00797" species="s1404"/>
+<speciesReference metaid="CDMT00798" species="s2182"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00799" species="s2619"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re268" id="re268" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00809" species="s392"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00810" species="s2184"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re269" id="re269" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00812" species="s2184"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00813" species="s392"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re270" id="re270" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00815" species="s316"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00816" species="s2189"/>
+<speciesReference metaid="CDMT00817" species="s2183"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re271" id="re271" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00818" species="s2189"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00819" species="s1370"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re272" id="re272" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00820" species="s1370"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00821" species="s1382"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re274" id="re274" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00824" species="s2184"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00825" species="s2110"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re275" id="re275" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00826" species="s2893"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00827" species="s732"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00828" species="s2110"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re276" id="re276" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00829" species="s2894"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00830" species="s733"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00831" species="s2110"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="CDMT00869" id="re288" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00870" species="s536"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00871" species="s535"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00306" species="s2011"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="CDMT00875" id="re289" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00876" species="s537"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00877" species="s542"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00878" species="s535"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="CDMT00879" id="re290" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00880" species="s538"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00881" species="s543"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00882" species="s535"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re291" id="re291" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00883" species="s539"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00884" species="s2185"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00885" species="s542"/>
+<modifierSpeciesReference metaid="CDMT00886" species="s543"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re292" id="re292" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00887" species="s540"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00888" species="s2186"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00889" species="s542"/>
+<modifierSpeciesReference metaid="CDMT00890" species="s543"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="CDMT00891" id="re293" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00892" species="s541"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00893" species="s2187"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00894" species="s542"/>
+<modifierSpeciesReference metaid="CDMT00895" species="s543"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="CDMT00896" id="re294" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00897" species="s2185"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00898" species="s1383"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="CDMT00899" id="re295" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00900" species="s2186"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00901" species="s1384"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re296" id="re296" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00902" species="s2187"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00903" species="s1385"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="CDMT00904" id="re297" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00905" species="s1386"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00906" species="s1388"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00907" species="s1383"/>
+<modifierSpeciesReference metaid="CDMT00908" species="s1384"/>
+<modifierSpeciesReference metaid="CDMT00909" species="s1385"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="CDMT00910" id="re298" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00911" species="s1387"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00912" species="s1389"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00913" species="s1390"/>
+<modifierSpeciesReference metaid="CDMT00914" species="s1391"/>
+<modifierSpeciesReference metaid="CDMT00915" species="s1383"/>
+<modifierSpeciesReference metaid="CDMT00916" species="s1384"/>
+<modifierSpeciesReference metaid="CDMT00917" species="s1385"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="CDMT00918" id="re299" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00919" species="s1388"/>
+<speciesReference metaid="CDMT00920" species="s1389"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00921" species="s1375"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re300" id="re300" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00922" species="s1375"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00923" species="s1382"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re301" id="re301" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00924" species="s2192"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00925" species="s1390"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re302" id="re302" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00926" species="s2193"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00927" species="s1391"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re303" id="re303" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00928" species="s2043"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00929" species="s2192"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re304" id="re304" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00930" species="s2042"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00931" species="s2193"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="CDMT00962" id="re315" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00963" species="s683"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00964" species="s701"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re316" id="re316" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00966" species="s695"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00967" species="s2161"/>
+<speciesReference metaid="CDMT00968" species="s697"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00969" species="s701"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re317" id="re317" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00970" species="s2161"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00971" species="s1378"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="CDMT00972" id="re318" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00973" species="s1378"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00974" species="s1382"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re349" id="re349" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT01074" species="s392"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT01075" species="s2184"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT01076" species="s1004"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re417" id="re417" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00660" species="s2248"/>
+<speciesReference metaid="CDMT00661" species="s2249"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00662" species="s2260"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re418" id="re418" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00663" species="s2259"/>
+<speciesReference metaid="CDMT00673" species="s467"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00674" species="s2271"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re419" id="re419" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00675" species="s2260"/>
+<speciesReference metaid="CDMT00676" species="s2271"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00677" species="s2270"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re420" id="re420" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00678" species="s468"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00679" species="s2273"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re421" id="re421" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00680" species="s2274"/>
+<speciesReference metaid="CDMT00681" species="s2273"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00682" species="s2286"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re422" id="re422" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00683" species="s2260"/>
+<speciesReference metaid="CDMT00728" species="s2286"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00729" species="s2285"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re423" id="re423" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00730" species="s2260"/>
+<speciesReference metaid="CDMT00731" species="s2288"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00732" species="s2296"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re424" id="re424" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00733" species="s2287"/>
+<speciesReference metaid="CDMT00734" species="s739"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00735" species="s2288"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re425" id="re425" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00736" species="s2296"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00737" species="s2306"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re426" id="re426" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00738" species="s2285"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00739" species="s2312"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re427" id="re427" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00740" species="s2270"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00741" species="s2318"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re428" id="re428" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00742" species="s2318"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00743" species="s2319"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re429" id="re429" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00744" species="s2312"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00745" species="s2324"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re430" id="re430" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00746" species="s2306"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00747" species="s2329"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re434" id="re434" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00748" species="s2334"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00751" species="s2358"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00769" species="s2324"/>
+<modifierSpeciesReference metaid="CDMT00770" species="s2329"/>
+<modifierSpeciesReference metaid="CDMT00771" species="s2319"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re435" id="re435" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00772" species="s2358"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00773" species="s2357"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re436" id="re436" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00774" species="s2357"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00775" species="s2359"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re437" id="re437" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00776" species="s2359"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00777" species="s1382"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re438" id="re438" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00778" species="s2384"/>
+<speciesReference metaid="CDMT00779" species="s2382"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00780" species="s2360"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re439" id="re439" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00781" species="s2389"/>
+<speciesReference metaid="CDMT00782" species="s2382"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00783" species="s2371"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re440" id="re440" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00790" species="s2394"/>
+<speciesReference metaid="CDMT00832" species="s2382"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00833" species="s2369"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re441" id="re441" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00834" species="s2318"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00835" species="s2384"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00836" species="s2383"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re442" id="re442" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00837" species="s2312"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00838" species="s2389"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00839" species="s2383"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re443" id="re443" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00840" species="s2306"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00841" species="s2394"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00842" species="s2383"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re444" id="re444" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00843" species="s2369"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00844" species="s2400"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re445" id="re445" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00845" species="s2371"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00846" species="s2408"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re446" id="re446" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00847" species="s2360"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00848" species="s2416"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re447" id="re447" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00849" species="s2306"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00850" species="s2423"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re448" id="re448" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00851" species="s2312"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00852" species="s2428"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re449" id="re449" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00853" species="s2318"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00854" species="s2318"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re450" id="re450" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00855" species="s2428"/>
+<speciesReference metaid="CDMT00856" species="s2086"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00857" species="s2442"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re451" id="re451" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00858" species="s2423"/>
+<speciesReference metaid="CDMT00859" species="s2086"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00860" species="s2433"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re452" id="re452" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00861" species="s2318"/>
+<speciesReference metaid="CDMT00862" species="s2086"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00863" species="s2444"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re453" id="re453" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00864" species="s2433"/>
+<speciesReference metaid="CDMT00865" species="s2743"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00866" species="s2459"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re454" id="re454" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00867" species="s2442"/>
+<speciesReference metaid="CDMT00868" species="s2743"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00872" species="s2468"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re455" id="re455" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00873" species="s2444"/>
+<speciesReference metaid="CDMT00932" species="s2743"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00933" species="s2477"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re505" id="re505" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT01193" species="s2045"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT01194" species="s2766"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT01195" species="s2888"/>
+<modifierSpeciesReference metaid="CDMT01196" species="s2889"/>
+<modifierSpeciesReference metaid="CDMT01197" species="s2890"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re506" id="re506" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT01198" species="s2766"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT01199" species="s2767"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re507" id="re507" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT01201" species="s2014"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT01202" species="s2769"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT01203" species="s2082"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re508" id="re508" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT01204" species="s2769"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT01205" species="s2765"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re509" id="re509" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT01206" species="s2769"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT01207" species="s2770"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re510" id="re510" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT01208" species="s2769"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT01209" species="s2771"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re511" id="re511" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT01210" species="s2769"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT01211" species="s2772"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re512" id="re512" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT01212" species="s2771"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT01213" species="s2773"/>
+</listOfProducts>
+</reaction>
+<reaction metaid="re513" id="re513" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT01214" species="s2772"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT01215" species="s2774"/>
+</listOfProducts>
+</reaction>
+</listOfReactions>
+</model>
+</sbml>
