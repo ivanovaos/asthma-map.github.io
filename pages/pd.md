@@ -8,6 +8,8 @@ permalink: /pd/
 
 ## AsthmaMap Process Description - Mast Cell Module
 
+<img src="/images/pd/MastCellModule-0.0.40.png"/>
+
 ### Availability 
 
 AsthmaMap Process Description [Mast Cell Module 0.40 in MINERVA](http://asthma.uni.lu/minerva/index.xhtml?id=mast_cell&x=11680&y=2300&zoom=6)
