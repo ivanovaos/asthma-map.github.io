@@ -15,11 +15,11 @@ permalink: /downloads/
 
 ## AsthmaMap Activity Flow
 
-**Dendritic cell 0.1.00**
+**Dendritic cell 0.1.01**
 &nbsp; [GraphML](/images/af/F001-DendriticCell.graphml)
 &nbsp; [SVG](/images/af/F001-DendriticCell.svg)  
 
-**Airway epithelial cell 0.1.00**
+**Airway epithelial cell 0.1.01**
 &nbsp; [GraphML](/images/af/F002-AirwayEpithelialCell.graphml)
 &nbsp; [SVG](/images/af/F002-AirwayEpithelialCell.svg)  
 
