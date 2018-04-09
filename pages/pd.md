@@ -8,7 +8,7 @@ permalink: /pd/
 
 ## Mast Cell Module 0.0.40
 
-<img src="/images/pd/MastCellModule-0.0.40.png"/>
+<a href="/images/pd/MastCellModule-0.0.40.png"><img src="/images/pd/MastCellModule-0.0.40.png"/></a>
 
 ### Availability 
 
