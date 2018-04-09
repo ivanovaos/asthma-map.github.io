@@ -15,19 +15,19 @@ permalink: /downloads/
 
 ## AsthmaMap Activity Flow
 
-**Dendritic cell**
+**Dendritic cell 0.1.01**
 &nbsp; [GraphML](/images/af/F001-DendriticCell.graphml)
 &nbsp; [SVG](/images/af/F001-DendriticCell.svg)  
 
-**Airway epithelial cell**
+**Airway epithelial cell 0.1.01**
 &nbsp; [GraphML](/images/af/F002-AirwayEpithelialCell.graphml)
 &nbsp; [SVG](/images/af/F002-AirwayEpithelialCell.svg)  
 
 ## AsthmaMap Process Description
 
-**Mast Cell Module 0.40**
+**Mast Cell Module 0.1.40**
 &nbsp; [Explore in MINERVA](http://asthma.uni.lu/minerva/index.xhtml?id=mast_cell&x=11680&y=2300&zoom=6)  
 
-**Eicosanoid Production Module 0.42**
+**Eicosanoid Production Module 0.1.42**
 &nbsp; [Explore in MINERVA](http://asthma.uni.lu/minerva/index.xhtml?id=AA_V42_SBGN&x=2050&y=1050&zoom=4)  
 
