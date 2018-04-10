@@ -114,9 +114,9 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
 <a href="/images/af/F000-TEST.graphml">GraphML</a> &nbsp;
 <a href="/images/af/F000-TEST.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
-      <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Treg</a> <br /> <font size="2"> 
-<a href="/images/af/F000-TEST.graphml">GraphML</a> &nbsp;
-<a href="/images/af/F000-TEST.sbgn">SBGN-ML</a> &nbsp;
+      <td style="width: 225px;" align="center"> <a href="/images/af/F005-Treg.svg"><br />Treg</a> <br /> <font size="2"> 
+<a href="/images/af/F005-Treg.graphml">GraphML</a> &nbsp;
+<a href="/images/af/F005-Treg.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
     </tr>
 </table>
@@ -125,7 +125,7 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
       <td style="width: 225px;" align="center"><a href="/images/af/F000-TEST.svg"><img src="/images/af/F000-empty-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
       <td style="width: 225px;" align="center"><a href="/images/af/F007-ILC2.svg"><img src="/images/af/F007-ILC2-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
       <td style="width: 225px;" align="center"><a href="/images/af/F000-TEST.svg"><img src="/images/af/F000-empty-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
-      <td style="width: 225px;" align="center"><a href="/images/af/F000-TEST.svg"><img src="/images/af/F000-empty-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
+      <td style="width: 225px;" align="center"><a href="/images/af/F005-Treg.svg"><img src="/images/af/F005-Treg-cut.png" style="border: #c6c6c6 1px solid; width: 195px;"/></a></td>
     </tr>
 </table>
 
