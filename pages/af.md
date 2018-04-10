@@ -42,20 +42,20 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
 <table>
     <tr valign="bottom">
       <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Eosinophil</a> <br /> <font size="2"> 
-<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+<a href="/images/af/F000-TEST.graphml">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
       <td style="width: 225px;" align="center"> <a href="/images/af/F012-MastCell.svg"><br />Mast cell</a> <br /> <font size="2"> 
 <a href="/images/af/F012-MastCell.graphml">GraphML</a> &nbsp;
 <a href="/images/af/F012-MastCell.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
       <td style="width: 225px;" align="center"> <a href="/images/af/F015-AirwaySmoothMuscleCell.svg"><br />Airway smooth muscle cell</a> <br /> <font size="2"> 
-<a href="/images/af/F015-AirwaySmoothMuscleCell.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/images/af/F015-AirwaySmoothMuscleCell.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+<a href="/images/af/F015-AirwaySmoothMuscleCell.graphml">GraphML</a> &nbsp;
+<a href="/images/af/F015-AirwaySmoothMuscleCell.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
       <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Fibroblast</a> <br /> <font size="2"> 
-<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+<a href="/images/af/F000-TEST.graphml">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
     </tr>
 </table>
@@ -72,20 +72,20 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
 <table>
     <tr valign="bottom">
       <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Eosinophil precursor</a> <br /> <font size="2"> 
-<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+<a href="/images/af/F000-TEST.graphml">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
       <td style="width: 225px;" align="center"> <a href="/images/af/F008-BCell.svg"><br />B cell</a> <br /> <font size="2"> 
-<a href="/images/af/F008-BCell.graphml" target="_blank">GraphML</a> &nbsp; 
-<a href="/images/af/F008-BCell.sbgn" target="_blank">SBGN-ML</a> &nbsp; 
+<a href="/images/af/F008-BCell.graphml">GraphML</a> &nbsp; 
+<a href="/images/af/F008-BCell.sbgn">SBGN-ML</a> &nbsp; 
 </font> </td>
       <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Th0</a> <br /> <font size="2"> 
-<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+<a href="/images/af/F000-TEST.graphml">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
       <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Th2</a> <br /> <font size="2"> 
-<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+<a href="/images/af/F000-TEST.graphml">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
     </tr>
 </table>
@@ -103,20 +103,20 @@ The AsthmaMap Activity Flow layer consists of cell-type-specific interconnected 
 <table>
     <tr valign="bottom">
       <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />ILC precursor</a> <br /> <font size="2"> 
-<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+<a href="/images/af/F000-TEST.graphml">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
       <td style="width: 225px;" align="center"> <a href="/images/af/F007-ILC2.svg"><br />ILC2</a> <br /> <font size="2"> 
-<a href="/images/af/F007-ILC2.graphml" target="_blank">GraphML</a> &nbsp; 
-<a href="/images/af/F007-ILC2.sbgn" target="_blank">SBGN-ML</a> &nbsp; 
+<a href="/images/af/F007-ILC2.graphml">GraphML</a> &nbsp; 
+<a href="/images/af/F007-ILC2.sbgn">SBGN-ML</a> &nbsp; 
 </font> </td>
       <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Goblet cell</a> <br /> <font size="2"> 
-<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+<a href="/images/af/F000-TEST.graphml">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
       <td style="width: 225px;" align="center"> <a href="/images/af/F000-TEST.svg"><br />Treg</a> <br /> <font size="2"> 
-<a href="/images/af/F000-TEST.graphml" target="_blank">GraphML</a> &nbsp;
-<a href="/images/af/F000-TEST.sbgn" target="_blank">SBGN-ML</a> &nbsp;
+<a href="/images/af/F000-TEST.graphml">GraphML</a> &nbsp;
+<a href="/images/af/F000-TEST.sbgn">SBGN-ML</a> &nbsp;
 </font> </td>
     </tr>
 </table>
