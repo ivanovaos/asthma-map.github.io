@@ -22,7 +22,7 @@ AsthmaMap Process Description [Mast Cell Module 0.0.40 in MINERVA](http://asthma
 
 The interactive version is [available for browsing in MINERVA](http://asthma.uni.lu/minerva/index.xhtml?id=AA_V42_SBGN&x=2050&y=1050&zoom=4).
 
-<a href="/images/pd/EicosanoidModule-0.0.42.svg"><img src="/images/pd/EicosanoidModule-0.0.42-cut.png" style="border: #c6c6c6 1px solid;"/></a>
+<a href="/images/pd/EicosanoidModule-0.0.42.png"><img src="/images/pd/EicosanoidModule-0.0.42-cut.png" style="border: #c6c6c6 1px solid;"/></a>
 
 ### Availability 
 
